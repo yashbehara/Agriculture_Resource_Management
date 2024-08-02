@@ -20,6 +20,13 @@ Sales Associates promote products, and Harvest Technicians implement cultivation
 <img width="1710" alt="Screenshot 2024-08-02 at 10 30 37 AM" src="https://github.com/user-attachments/assets/fe3ba8c7-1c60-4af1-8482-899c464d287d">
 
 
+## Implementation : 
+
+• Designed an architecture to streamline agricultural operations, incorporating data-driven insights and coordination among
+multiple enterprises
+• Integrated with MVC (Model, View, Controller), factory, and singleton design patterns to organize code effectively
+• Utilized MongoDB Atlas to establish a fully cloud-hosted database infrastructure, ensuring scalable and efficient data management for the application
+
 ## It has 4 Enterprises:
 
 •	Farms Enterprise
