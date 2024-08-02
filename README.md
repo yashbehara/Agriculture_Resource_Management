@@ -1,8 +1,9 @@
 ## Agricultural Eco-system Management:
 
 ## Tech : 
-• Java
-• Netbeans
+• Core Java
+• Java Swing
+• Apache Netbeans
 • MongoDB, MongoDB Atlas
 
 ## Project Description
