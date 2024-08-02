@@ -1,8 +1,24 @@
-## Project Description
-
 ## Agricultural Eco-system Management:
 
-The Agricultural Eco-system Management is a comprehensive solution designed to revolutionize the agricultural sector by integrating four enterprises—Farms, Distribution, Analytics, and Marts—alongside six key organizations and diverse roles. At its core, the system optimizes agricultural operations through data-driven insights and efficient coordination. The Data Analyst extracts valuable information to inform decision-making, while the Crop Planner strategically aligns crop planting with market demands. Warehouse Coordinators manage inventory and facilitate seamless deliveries, and Delivery Drivers ensure timely transportation. Sales Associates promote products, and Harvest Technicians implement cultivation techniques. Together, these roles create a cohesive framework, enhancing the overall efficiency, sustainability, and success of modern agricultural practices.	
+## Tech : 
+• Java
+• Netbeans
+• MongoDB, MongoDB Atlas
+
+## Project Description
+
+The Agricultural Eco-system Management is a comprehensive solution designed to revolutionize the agricultural sector by integrating four enterprises—Farms, Distribution, Analytics, and Marts—alongside six key organizations and diverse roles. 
+
+At its core, the system optimizes agricultural operations through data-driven insights and efficient coordination. The Data Analyst extracts valuable information to inform decision-making, while the Crop Planner strategically aligns crop planting with market demands. 
+
+Warehouse Coordinators manage inventory and facilitate seamless deliveries, and Delivery Drivers ensure timely transportation. 
+
+Sales Associates promote products, and Harvest Technicians implement cultivation techniques. Together, these roles create a cohesive framework, enhancing the overall efficiency, sustainability, and success of modern agricultural practices.	
+
+
+## Architecture : 
+<img width="1710" alt="Screenshot 2024-08-02 at 10 30 37 AM" src="https://github.com/user-attachments/assets/fe3ba8c7-1c60-4af1-8482-899c464d287d">
+
 
 ## It has 4 Enterprises:
 
@@ -27,6 +43,28 @@ The Agricultural Eco-system Management is a comprehensive solution designed to r
 •	Delivery Driver
 •	Sales Associates
 
+
+## Validations : 
+•	A user assigned to a specific role cannot access the portals of other roles.
+•	Portal will not allow the user to login if the input credentials are not valid.
+
+1.	Sales Associate:
+ 
+•	Sales Associate cannot add duplicate crop requirement per store and location once the requirement is published to the Data Analyst Org.
+
+2.	Warehouse Coordinator:
+ 
+•	The warehouse coordinator cannot create a delivery schedule if the overall crop requirement is more than the inventory quantity for a given crop.
+
+3.	Crop planner validations:
+ 
+•	When adding the crops to the list, if crop is already added, the user will get a notification that the crop is already added to schedule.
+•	Crop Planner will only be able to forecast future data and not for previous years data in the Forecast Panel
+•	Crop Planner cannot finalize the schedule until all the crop plans have been added.
+
+4.	Harvest Technician: 
+
+•	Only when the Status of the crop plan is updated to ‘completed’ , user will be able to add the Quantity of the crop produced.
 
 ## Contributors: 
 
